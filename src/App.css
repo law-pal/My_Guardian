@@ -1,0 +1,17 @@
+.navbar{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.subnav{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
