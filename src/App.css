@@ -3,15 +3,87 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
+    color: black;
 }
 
 .subnav{
-    background-color: chartreuse;
+    width: 50%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
+    list-style: none;
+    color: black;
+}
+
+.subnav:hover{
+    text-decoration: crimson;
+}
+
+.politics{
+    display: grid;
+    grid-template-columns: auto 1fr auto /auto 1fr auto;
+}
+
+.box-1{
+    background-color: cadetblue;
+    grid-column: 1/2;
+    height: 965px;
+}
+
+.box-2{
+    grid-column: 3/2;
+    height: 965px;
+}
+
+.box-3{
+    background-color: darksalmon;
+    grid-column: 3/4;
+    height: 965px;
+}
+
+.item-1{
     list-style: none;
 }
 
-a{
-    text-decoration: none;
+.children-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    list-style: none;
+    background-color: crimson;
+}
+
+.imgOne{
+    display: grid;
+}
+
+.imgTwo{
+    width: 600px;
+    height: 450px;
+}
+
+.children-1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: crimson;
+}
+
+.children-3{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.list-1{
+    background-color: #ededed;
+    list-style: none;
+}
+
+.children-4{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+}
+
+.imgThree{
+    width: 675px;
+    height: 425px;
 }
