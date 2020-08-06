@@ -12,23 +12,31 @@ class App extends Component {
     return(
         <Router>
             <div className='container'>
-                <ul className='navbar'>
-                    <li>
-                        <Link to='/'>News</Link>
-                    </li>
-                    <li>
-                        <Link to='/Opinion'>Opinion</Link>
-                    </li>
-                    <li>
-                        <Link to='/Sports'>Sports</Link>
-                    </li>
-                    <li>
-                        <Link to='/Culture'>Culture</Link>
-                    </li>
-                    <li>
-                        <Link to='/Lifestyle'>Lifestyle</Link>
-                    </li>
-                </ul> 
+                <div className='topNavBar'>
+                    <h1 className='h1topNavBar'>Support The Guardian</h1>
+                    <h3 className='h3topNavBar'>Support our journalism with a year-end gift</h3>
+                    <div className='buttons'>
+                        <button className='buttonOne'>Contribute</button>
+                        <button className='buttonOne'>Suscribe</button>
+                    </div>
+                    <ul className='navbar'>
+                        <li>
+                            <Link className='mainNavBar' to='/'>News</Link>
+                        </li>
+                        <li>
+                            <Link className='mainNavBar' to='/Opinion'>Opinion</Link>
+                        </li>
+                        <li>
+                            <Link className='mainNavBar' to='/Sports'>Sports</Link>
+                        </li>
+                        <li>
+                            <Link className='mainNavBar' to='/Culture'>Culture</Link>
+                        </li>
+                        <li>
+                            <Link className='mainNavBar' to='/Lifestyle'>Lifestyle</Link>
+                        </li>
+                    </ul> 
+                </div>
 
                 <Switch>
                     <Route exact path='/' component={News}/>
