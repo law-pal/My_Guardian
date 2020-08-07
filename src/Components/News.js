@@ -90,11 +90,10 @@ class News extends Component {
                         
                             <div className='children-4'>
                                 <div className='trumpbernie'>
-                                    <h1>2020 will be an epic year for America</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa sed. Lacinia quis vel eros donec ac odio tempor orci dapibus.</p>
-                                </div>
-                                <div>
-                                    <img className='imgThree' src={imgThree}/>
+                                    <a className='anchor' href="#">
+                                        <h1>2020 will be an epic year for America</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa sed. Lacinia quis vel eros donec ac odio tempor orci dapibus.</p>
+                                    </a>
                                 </div>
                             </div>
 

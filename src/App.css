@@ -69,6 +69,7 @@
     justify-content: space-around;
     list-style: none;
     color: black;
+    font-size: 1.3em;
 }
 
 .subnav:hover{
@@ -90,7 +91,6 @@
 
 .box-2{
     grid-column: 2/3;
-    height: 965px;
     text-align: center;
     background-color: #ab1613;
 }
@@ -99,21 +99,6 @@
     grid-column: 3/4;
     background-color: #fef9f5;
 }
-
-/* .imgFour{
-    width: 250px;
-    height: 150px;
-}
-
-.imgFour:hover{
-    opacity: 0.8;
-    transition: ease-in 0.6s;
-}
-
-.weinstein{
-    display: flex;
-    justify-content: center;
-} */
 
 .item-1{
     list-style: none;
@@ -225,7 +210,7 @@
 }
 
 .list-2{
-    background-color: darkgoldenrod;
+    background-color: #ff7f0f;
     list-style: none;
     font-size: 1.5em;
 }
@@ -247,22 +232,22 @@
 
 .children-4{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+    grid-template-rows: 500px ; 
 
-.imgThree{
-    width: 675px;
-    height: 425px;
-}
-
-.imgThree:hover{
-    opacity: 0.8;
-    transition: ease-in 0.6s;
 }
 
 .trumpbernie{
-    background-color: #fef9f5;
+    background-image: url(images/image.22cd2214.jpg);
+    background-size: 950px ;
+    background-repeat: no-repeat;
 }
+
+.trumpbernie:hover{
+    opacity: 0.8;
+    transition: ease-in 0.6s;
+    color: #ab1613;
+    text-decoration: underline;
+} 
 
 .boxThreediv{
     display: grid;
