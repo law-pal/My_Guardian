@@ -8,8 +8,12 @@
 
 .mainNavBar{
     text-decoration: none;
-    font-size: 2em;
+    font-size: 3em;
     color: white;
+}
+
+.mainNavBar:hover{
+    opacity: 0.8;
 }
 
 .topNavBar{
@@ -21,11 +25,15 @@
 
 .h1topNavBar{
     color: yellow;
-    font-size: 3em;
+    font-size: 4em;
+    letter-spacing: 0.7px;
 }
 
 .h3topNavBar{
     color: white;
+    font-size: 2em;
+    letter-spacing: 0.7px;
+    
 }
 
 .buttons{
@@ -47,7 +55,12 @@
 
 .buttonOne:hover{
     opacity: 0.8;
-    color: #005689
+    color: #005689;
+    transition: ease-in 0.6s;
+}
+
+.buttonOne:focus{
+    outline: none;
 }
 
 .subnav{
@@ -59,19 +72,19 @@
 }
 
 .subnav:hover{
-    text-decoration: crimson;
+    text-decoration: #ab1613;
+    transition: ease-in 0.6s;
 }
 
 .politics{
     display: grid;
     grid-template-columns: auto 1fr auto /auto 1fr auto;
-    height: 1000px;
+    grid-column-gap: 1em;
 }
 
 .box-1{
     background-color: #fef9f5;
     grid-column: 1/2;
-    height: 965px;
     text-align: left;
 }
 
@@ -79,26 +92,56 @@
     grid-column: 2/3;
     height: 965px;
     text-align: center;
-    background-color: crimson;
+    background-color: #ab1613;
 }
 
 .box-3{
     grid-column: 3/4;
-    height: 965px;
+    background-color: #fef9f5;
 }
 
-.imgFour{
+/* .imgFour{
     width: 250px;
     height: 150px;
+}
+
+.imgFour:hover{
+    opacity: 0.8;
+    transition: ease-in 0.6s;
 }
 
 .weinstein{
     display: flex;
     justify-content: center;
-}
+} */
 
 .item-1{
     list-style: none;
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-row-gap: 1em;
+    font-size: 1.5em;
+}
+
+.item-1-child-one{
+    background-image: url(images/4000.jpg);
+    background-repeat: no-repeat;
+    background-size: 360px 200px;
+    text-align: end;
+}
+
+.item-1-child-one:hover{
+    opacity: 0.8;
+    transition: ease-in 0.6s;
+}
+
+.item-1-child-two{
+    background-color: #dcdcdc;
+}
+
+.item-1-child-three{
+    background-color: #dcdcdc;
+
 }
 
 .children-2{
@@ -123,8 +166,9 @@
 }
 
 .anchor:hover{
-    color: crimson;
+    color: #ab1613;
     text-decoration: underline;
+    transition: ease-in 0.6s;
 }
 
 .anchorOne{
@@ -137,20 +181,25 @@
     text-decoration: underline;
 }
 
-
-.imgOne{
-    display: grid;
+.imgOne:hover{
+    opacity: 0.8;
+    transition: ease-in 0.6s;
 }
 
 .imgTwo{
-    width: 600px;
+    width: 640px;
     height: 450px;
+}
+
+.imgTwo:hover{
+    opacity: 0.8;
+    transition: ease-in 0.6s;
 }
 
 .children-1{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    background-color: crimson;
+    background-color: #ab1613;
 }
 
 .children-3{
@@ -161,23 +210,39 @@
 
 .parent-list-1{
     display: grid;
-    grid-template-rows: 220px auto 25%;
-
+    grid-template-rows: 200px auto 45%;
 }
 
 .list-1{
-    background-color: darkcyan;
+    background-color: #506991;
     list-style: none;
+    font-size: 1.5em;
+}
+
+.list-1:hover{
+    opacity: 0.8;
+    transition: ease-in 0.6s;
 }
 
 .list-2{
     background-color: darkgoldenrod;
     list-style: none;
+    font-size: 1.5em;
+}
+
+.list-2:hover{
+    opacity: 0.8;
+    transition: ease-in 0.6s;
 }
 
 .list-3{
     background-color: darksalmon;
     list-style: none;
+}
+
+.list-3:hover{
+    opacity: 0.8;
+    transition: ease-in 0.6s;
 }
 
 .children-4{
@@ -190,6 +255,67 @@
     height: 425px;
 }
 
+.imgThree:hover{
+    opacity: 0.8;
+    transition: ease-in 0.6s;
+}
+
 .trumpbernie{
     background-color: #fef9f5;
+}
+
+.boxThreediv{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-row-gap: 1em;
+}
+
+.divchild-one{
+    background-image: url(images/3039.jpg);
+    background-repeat: no-repeat;
+    background-size: 360px 200px;
+    text-align: end;
+}
+
+.divchild-one:hover{
+    background-color: #dcdcdc;
+    opacity: 0.9;
+    transition: ease-in 0.6s;
+}
+
+.divchild-two{
+    background-image: url(images/5352.jpg);
+    background-repeat: no-repeat;
+    background-size: 360px 200px;
+    text-align: end;
+}
+
+.divchild-two:hover{
+    background-color: #dcdcdc;
+    opacity: 0.9;
+    transition: ease-in 0.6s;
+}
+
+.divchild-three{
+    background-image: url(images/4592.jpg);
+    background-repeat: no-repeat;
+    background-size: 360px 200px;
+    text-align: end;
+}
+
+.divchild-three:hover{
+    background-color: #dcdcdc;
+    opacity: 0.9;
+    transition: ease-in 0.6s;
+}
+
+.anchordiv{
+    text-decoration: none;
+    color: white
+}
+
+.anchordiv:hover{
+    color: #ab1613;
+    text-decoration: underline;
+    transition: ease-in 0.5s;
 }

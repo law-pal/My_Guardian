@@ -3,6 +3,7 @@ import imgOne from '../images/5472.jpg'
 import imgTwo from '../images/3000.jpg'
 import imgThree from '../images/image.22cd2214.jpg'
 import imgFour from '../images/4000.jpg'
+import imgFive from '../images/3039.jpg'
 
 class News extends Component {
     render() {
@@ -75,10 +76,10 @@ class News extends Component {
                                 <div>
                                     <ul className ='parent-list-1'>
                                         <li className='list-1'>
-                                            <a className='anchor' href='#'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
+                                            <a className='anchor' href='#'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Id leo in vitae turpis massa sed. Lacinia quis vel eros donec ac odio.</a>
                                         </li><br/>
                                         <li className='list-2'>
-                                            <a className='anchor' href='#'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
+                                            <a className='anchor' href='#'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Id leo in vitae.</a>
                                         </li><br/>
                                         <li className='list-3'>
                                             <a className='anchor' href='#'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
@@ -100,20 +101,30 @@ class News extends Component {
                     </div>
 
                     <div className='box-3'>
-                            <div className='weinstein'>
-                            <img className='imgFour' src={imgFour}/>
+                            <div className='item-1'>
+                                <div className='item-1-child-one'>
+                                    <a className='anchor' href='#'>
+                                    </a>
+                                </div>
+                                <div className='item-1-child-two'>
+                                    <a className='anchor' href='#'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporId leo in vitae turpis massa sed. Lacinia quis vel eros donec ac odio tempor orci dapibus.</a>
+                                </div>
+                                <div className='item-1-child-three'>
+                                    <a className='anchor' href='#'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporId leo in vitae turpis massa sed. Lacinia quis vel eros donec ac odio tempor orci dapibus.</a>
+                                </div>
                             </div>
-                            <ul className='item-1'>
-                                <li>
-                                    <a className='anchor' href='#'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
-                                </li><br/>
-                                <li>
-                                    <a className='anchor' href='#'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
-                                </li><br/>
-                                <li>
-                                    <a className='anchor' href='#'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
-                                </li>
-                            </ul>
+
+                            <div className='boxThreediv'>
+                                <div className='divchild-one'>
+                                <a className='anchordiv' href='#'></a>
+                                </div>
+                                <div className='divchild-two'>
+                                <a className='anchordiv' href='#'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
+                                </div>
+                                <div className='divchild-three'>
+                                <a className='anchordiv' href='#'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>

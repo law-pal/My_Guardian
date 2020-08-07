@@ -16,8 +16,8 @@ class App extends Component {
                     <h1 className='h1topNavBar'>Support The Guardian</h1>
                     <h3 className='h3topNavBar'>Support our journalism with a year-end gift</h3>
                     <div className='buttons'>
-                        <button className='buttonOne'>Contribute</button>
-                        <button className='buttonOne'>Suscribe</button>
+                        <button type='button' className='buttonOne'>Contribute</button>
+                        <button type='button' className='buttonOne'>Suscribe</button>
                     </div>
                     <ul className='navbar'>
                         <li>
